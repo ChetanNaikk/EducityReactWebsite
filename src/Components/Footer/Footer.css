@@ -1,0 +1,27 @@
+.footer {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    border-top: 1px solid #797979;
+    padding: 15px 0;
+}
+
+.footer ul li {
+  list-style: none;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+    .footer {
+      display: block;
+      align-items: center;
+    }
+    .footer ul li {
+      margin: 10px;
+    }
+    .footer ul {
+      margin: 10px;
+    }
+}
